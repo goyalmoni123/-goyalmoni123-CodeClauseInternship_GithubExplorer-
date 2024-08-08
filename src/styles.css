@@ -1,0 +1,180 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('C:\Users\hp\OneDrive - Tagore Academy Public School\Desktop\clause\github-explorer\src\image.png');
+  background-size: cover; /* Adjust the size of the background image */
+  background-position: center;
+    color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+ 
+}
+
+.App {
+  max-width: 900px;
+  width: 100%;
+  padding: 20px;
+  background-color:cream;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+  margin-right: 20px;
+  margin-bottom:100px ;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+h1 {
+  color:white;
+  margin-bottom: 20px;
+}
+
+/* Search Bar Styles */
+.search-bar {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  background-color:#0366d6;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color:#0366d6;
+}
+
+/* Repo List Styles */
+.repo-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.repo-list h2 {
+  margin-bottom: 10px;
+  color: #0366d6;
+  border-bottom: 2px solid #0366d6;
+  display: inline-block;
+}
+
+.repo-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.repo-list li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repo-list li:hover {
+  transform: scale(1.02);
+  background-color: #f0f0f0;
+}
+
+.repo-list li span {
+  color:white;
+  font-size: 0.9em;
+}
+
+/* Repo Details Styles */
+.repo-details {
+  margin-top: 20px;
+  text-align: left;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.repo-details h2 {
+  color: #0366d6;
+  margin-bottom: 10px;
+}
+
+.repo-details p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.repo-details a {
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: bold;
+}
+
+.repo-details a:hover {
+  text-decoration: underline;
+}
+
+/* User Profile Styles */
+.user-profile {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.user-profile img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid darkgray;
+}
+
+.user-profile h2 {
+  color: #0366d6;
+  margin-top: 10px;
+}
+
+.user-profile p {
+  margin: 5px 0;
+  color:lightblue;
+  font-weight: bold;
+
+}
+
+.user-profile a {
+  text-decoration: none;
+  color:gainsboro;
+  font-weight: bold;
+}
+
+.user-profile a:hover {
+  text-decoration: underline;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
